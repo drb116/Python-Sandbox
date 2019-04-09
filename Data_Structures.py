@@ -6,11 +6,6 @@ def list_play(my_list):
     print("dog" in my_list)
     print(4 in my_list)
     print(my_list[2:4])
-    my_name = "jackson"
-    print(my_name[2]) #One letter
-    print(my_name[2:4]) #Includes 2, but not 4
-    print(my_name[2:]) #From 2 on
-    print(my_name[:4]) #Up to 4
 
     list2 = [0,1,2,3,4]
     print(list2)
