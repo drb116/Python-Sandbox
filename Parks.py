@@ -10,7 +10,9 @@ def parks_call(url):
 
 
 def main():
-    base_url="https://developer.nps.gov/api/v1/parks?api_key="
+    #Sign up: https://api.data.gov/
+    #Docs: "https://www.nps.gov/subjects/developer/api-documentation.htm#/parks/getPark
+    base_url="https://developer.nps.gov/api/v1/parks?api_key=" #Add your key here
     option = input("Do you want to search on (S)tate or (K)eyword? ")
     if option.lower() == "s":
         search_term = input("Please enter a state to search in: ")
